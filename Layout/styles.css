@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 300px;
+    right: 0;
+}
+
+.redBox {
+
+    border: 5px solid #FF0000;
+    width: 1440px;
+    height: 1024px;
+    grid-template-columns: 225px 790px;
+}
+
+.purpleBox {
+
+    border: 5px solid #B10FCB;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    height: 225px;
+    width: 1440px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 56px;
+
+    color: #000000;
+    text-align: center;
+
+
+}
+
+.lightBlueBox {
+    display: grid;
+    background: #FFFFFF;
+    border: 5px solid #74E6FF;
+    box-sizing: border-box;
+    width: 1440px;
+    height: 799px;
+    grid-template-columns: 428px 993px;
+
+}
+
+.lightGreenBox {
+
+    width: 428px;
+    height: 789px;
+    background: #FFFFFF;
+    border: 5px solid #5DFF11;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 56px;
+    text-align: justify;
+    padding-left: 10px;
+
+    color: #000000;
+}
+
+.blueBox {
+    display: grid;
+    grid-template-rows: 176px 593px;
+    width: 1002px;
+    height: 789px;
+
+    background: #FFFFFF;
+    border: 5px solid #231FFF;
+    box-sizing: border-box;
+
+
+}
+
+
+.orangeBox {
+
+    width: 992px;
+    height: 176px;
+    background: #FFFFFF;
+    border: 5px solid #FF8A1F;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.magentaBox {
+
+    width: 992px;
+    height: 603px;
+
+    background: #FFFFFF;
+    border: 5px solid #FF1FF6;
+    box-sizing: border-box;
+
+
+}

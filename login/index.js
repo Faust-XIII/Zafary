@@ -11,16 +11,16 @@ function login() {
     const inputMail = window.document.querySelector("#email")
     const emailValue = inputMail.value;
     console.log(emailValue);
+
     const inputPassword = window.document.querySelector("#password")
-   
-
-
     const passwordValue = inputPassword.value;
-    console.log(passwordValue);
+        
 
     if (emailValue === 'ejemplo@gmail.com' && passwordValue === '123456') {
 
         console.log('Iniciando sesión…');
+        document.location.assign('../Layout/index.html')
+
     } else {
 
         console.log('Email y/o contraseña incorrectos');

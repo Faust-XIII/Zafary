@@ -1,0 +1,150 @@
+<<<<<<< HEAD
+body {
+    margin: 0;
+
+}
+
+.encabezado {
+    display: grid;
+    width: 620px;
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.test {
+    height: 900px;
+    width: 620px;
+    margin-left: 550PX;
+    margin-right: 10PX;
+    margin-top: 80px;
+    background-color: rgb(181, 228, 212);
+    border-radius: 30px;
+    border-width: 2px;
+    border-color:  gold;
+    border-style: solid;
+    justify-content: center;
+    
+}
+
+.box-container {
+    height: 900px;
+    width: 620px;
+    display: grid;
+    grid-template-columns: 140px 140px 140px;
+    grid-template-rows: 140px 140px 140px 140px 140px;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+
+.box {
+    border-radius: 20px;
+    background-color: #5AD2AE;
+    border: 10px;
+    border-color: white;
+    text-align: center;
+    display: grid;
+    position: relative;
+}
+
+.img-box {
+
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+.img {
+
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin: 6px 25px 6px;
+}
+
+.artist-name {
+
+    margin-top: auto;
+    color: whitesmoke;
+    font: larger;
+
+=======
+body {
+    margin: 0;
+
+}
+
+.encabezado {
+    display: grid;
+    width: 620px;
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.test {
+    height: 900px;
+    width: 620px;
+    margin-left: 550PX;
+    margin-right: 10PX;
+    margin-top: 80px;
+    background-color: rgb(181, 228, 212);
+    border-radius: 30px;
+    border-width: 2px;
+    border-color:  gold;
+    border-style: solid;
+    justify-content: center;
+    
+}
+
+.box-container {
+    height: 900px;
+    width: 620px;
+    display: grid;
+    grid-template-columns: 140px 140px 140px;
+    grid-template-rows: 140px 140px 140px 140px 140px;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+
+.box {
+    border-radius: 20px;
+    background-color: #5AD2AE;
+    border: 10px;
+    border-color: white;
+    text-align: center;
+    display: grid;
+    position: relative;
+}
+
+.img-box {
+
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+.img {
+
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin: 6px 25px 6px;
+}
+
+.artist-name {
+
+    margin-top: auto;
+    color: whitesmoke;
+    font: larger;
+
+>>>>>>> 001579328fd57db1f882f026782c3e445a89789f
+}
