@@ -2,18 +2,18 @@
 
     height: 100%;
 
-    border-style: solid;
+
     border-width: 2px;
     border-color: red;
 }
 
 .Leftgrid {
     text-align: center;
-    height: 99%;
+    height: 100%;
     display: grid;
-    border-style: solid;
-    border-width: 3px;
-    border-color: limegreen;
+grid-template-rows: 15%;
+    border-right: 1px solid #8C8C8C;
+    border-bottom: 1px solid #DBDBDB;
 }
 
 .Maingrid {
@@ -23,7 +23,7 @@
     justify-content: center;
     display: grid;
     grid-auto-flow: column;
-    border-style: solid;
+
     border-width: 1px;
 
 }
@@ -31,54 +31,84 @@
 
 
 .Lefthead {
-    border-style: solid;
-    border-width: 2px;
-    border-color: blue;
 
+    display: flex;
+    border-width: 2px;
+    background-color: #DBDBDB;
+    font-size: 36px;
+    align-items: center;
+    padding-left: 80px;
 }
 
 
 
 .Boxname {
-
-
-    border-style: solid;
-    border-width: 2px;
-    border-color: cyan;
+    
+    /*border-width: 2px;*/
+    border-bottom: 1px solid #DBDBDB;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 78px 168px;
+    padding-left: 35px;
 }
-
 
 .Rightgrid {
 
 
     display: table-header-group;
-    border-color: purple;
+    /* border-color: purple;*/
     text-align: center;
-    
-    border-style: solid;
-    border-width: 3px;
+     border-width: 3px;
 
 }
 
 .Righthead {
-    font-size: x-large;
+  
     height: 15%;
-    border-style: solid;
+    font-size: 36px;
     border-width: 2px;
-    border-color: blue;
+    background: #DBDBDB;
+    display: flex ;
+    align-items: center;
+    padding-left: 320px;
 }
 
 .Chatview {
 
-    height: 65%;
-    border-style: solid;
+    height: 75%;
+background: #F2F2F2;
     border-width: 2px;
-    border-color: orchid;
+
 }
 
 .InputComment {
     height: 17.8%;
-    border-style: solid;
+
     border-width: 3px;
-    border-color: green;
+    /*border-color: green;*/
+    background: #F2F2F2;;
+}
+
+.imagen {
+
+    height: 61px;
+    width: 61px;
+    border-radius: 50%;
+
+}
+
+.chat input {
+   
+    border-radius: 40px;
+    height: 34px;
+    width: 90%;
+    text-align: center;
+    border-radius: 40px;
+  border: 1px solid #DBDBDB;
+
+}
+
+p{
+
+    font-size: 14;
 }

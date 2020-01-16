@@ -17,7 +17,7 @@ main {
   display: grid;
   align-items: center;
   justify-items: center;
- 
+
 }
 
 .caja-login {
@@ -26,8 +26,8 @@ main {
   padding: 20px 40px;
   background: #F2FCFF;
   border-radius: 40px;
-  border:solid #C3F1FF 2px ;
-  
+  border: solid #C3F1FF 2px;
+
 
 }
 
@@ -55,10 +55,10 @@ main {
 
 .formulario-login input {
   height: 34px;
-  text-align: center ;
+  text-align: center;
   border-radius: 40px;
   border: 1px solid #C3F1FF;
-  
+
 
 }
 
@@ -75,7 +75,7 @@ main {
 .formulario-login button:hover {
   cursor: pointer;
 
-background: #AFAFAF;
+  background: #AFAFAF;
 }
 
 .formulario-login small {
@@ -84,16 +84,27 @@ background: #AFAFAF;
 
 /* Color de texto de ayuda */
 .formulario-login input::placeholder {
- /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #5AD2AE;
-    opacity: 1; /* Firefox */
-  }
-  
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #5AD2AE;
-  }
-  
-  ::-ms-input-placeholder { /* Microsoft Edge */
-    color: #5AD2AE;
-  }
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #5AD2AE;
+  opacity: 1;
+  /* Firefox */
+}
 
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #5AD2AE;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #5AD2AE;
+}
+
+.hide {
+
+  display: none;
+}
+
+#msg-error {
+color: #FF0000;
+}

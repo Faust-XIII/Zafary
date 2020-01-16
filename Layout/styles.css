@@ -11,7 +11,7 @@ body {
 
 .redBox {
 
-    border: 5px solid #FF0000;
+    border: 0.01px solid ;
     width: 1440px;
     height: 1024px;
     grid-template-columns: 225px 790px;
@@ -19,19 +19,19 @@ body {
 
 .purpleBox {
 
-    border: 5px solid #B10FCB;
-    background: #FFFFFF;
+    border: 0.1px solid ;
+    background: #333333;
     box-sizing: border-box;
-    height: 225px;
-    width: 1440px;
+    height: 230px;
+    width: 1450px;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 56px;
+    font-size: 48px;
     line-height: 56px;
 
-    color: #000000;
+    color: #ffffff;
     text-align: center;
 
 
@@ -40,7 +40,7 @@ body {
 .lightBlueBox {
     display: grid;
     background: #FFFFFF;
-    border: 5px solid #74E6FF;
+    border: 0.01px;
     box-sizing: border-box;
     width: 1440px;
     height: 799px;
@@ -49,21 +49,20 @@ body {
 }
 
 .lightGreenBox {
-
+display: grid;
     width: 428px;
     height: 789px;
-    background: #FFFFFF;
-    border: 5px solid #5DFF11;
+    background: #C3F1FF;
+    border: 0.001px;
     box-sizing: border-box;
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 25px;
     line-height: 56px;
     text-align: justify;
     padding-left: 10px;
 
     color: #000000;
+    align-items: center;
 }
 
 .blueBox {
@@ -73,7 +72,7 @@ body {
     height: 789px;
 
     background: #FFFFFF;
-    border: 5px solid #231FFF;
+    border: 0.01px;
     box-sizing: border-box;
 
 
@@ -85,7 +84,7 @@ body {
     width: 992px;
     height: 176px;
     background: #FFFFFF;
-    border: 5px solid #FF8A1F;
+    border: 0.01px;
     box-sizing: border-box;
     font-family: Roboto;
     font-style: normal;
@@ -103,7 +102,7 @@ body {
     height: 603px;
 
     background: #FFFFFF;
-    border: 5px solid #FF1FF6;
+    border: 0.01px;
     box-sizing: border-box;
 
 
