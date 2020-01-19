@@ -18,11 +18,9 @@ body {
     margin-left: 175PX;
     margin-right: 10PX;
     margin-top: none;
-    background-color: rgb(181, 228, 212);
+    background-color: #D5F5FF;
     border-radius: 30px;
-    border-width: 2px;
-    border-color:  gold;
-    border-style: solid;
+    border : 2px solid #C3F1FF;
     justify-content: center;
     
 }

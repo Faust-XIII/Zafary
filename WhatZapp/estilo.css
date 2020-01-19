@@ -11,7 +11,7 @@
     text-align: center;
     height: 100%;
     display: grid;
-grid-template-rows: 15%;
+    grid-template-rows: 15%;
     border-right: 1px solid #8C8C8C;
     border-bottom: 1px solid #DBDBDB;
 }
@@ -43,7 +43,7 @@ grid-template-rows: 15%;
 
 
 .Boxname {
-    
+
     /*border-width: 2px;*/
     border-bottom: 1px solid #DBDBDB;
     align-items: center;
@@ -58,17 +58,17 @@ grid-template-rows: 15%;
     display: table-header-group;
     /* border-color: purple;*/
     text-align: center;
-     border-width: 3px;
+    border-width: 3px;
 
 }
 
 .Righthead {
-  
+
     height: 15%;
     font-size: 36px;
     border-width: 2px;
     background: #DBDBDB;
-    display: flex ;
+    display: flex;
     align-items: center;
     padding-left: 320px;
 }
@@ -76,7 +76,7 @@ grid-template-rows: 15%;
 .Chatview {
 
     height: 75%;
-background: #F2F2F2;
+    background: #F2F2F2;
     border-width: 2px;
 
 }
@@ -86,7 +86,8 @@ background: #F2F2F2;
 
     border-width: 3px;
     /*border-color: green;*/
-    background: #F2F2F2;;
+    background: #F2F2F2;
+    ;
 }
 
 .imagen {
@@ -98,17 +99,24 @@ background: #F2F2F2;
 }
 
 .chat input {
-   
+
     border-radius: 40px;
-    height: 34px;
-    width: 90%;
+    height: 45px;
+    width: 80%;
     text-align: center;
     border-radius: 40px;
-  border: 1px solid #DBDBDB;
+    border: 1px solid #DBDBDB;
 
 }
 
-p{
+p {
 
     font-size: 14;
+}
+
+.Boxname:hover {
+
+    background: #F2F2F2;
+
+
 }
