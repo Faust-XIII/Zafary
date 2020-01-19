@@ -10,7 +10,15 @@ body {
 .texto {
 
     color: #000000;
-    font-size: 48px;
+    font-size: 40px;
     text-align: center;
+    margin: 20px;
 
+}
+
+.imagen{
+
+width: 800px;
+height: 430px;
+padding-left: 90px;
 }
